@@ -15,7 +15,7 @@ pipeline {
                             sh "./uppercase ${TEXT}"
                         }
                 }
-                stage('Reverse on Development2') {
+                stage('Reverse on Testing') {
                     agent {
                         label 'testing'
                     }
